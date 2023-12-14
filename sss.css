@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заголовков */
+h1, h2 {
+    text-align: center;
+}
+
+/* Стили для навигационного меню */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Стили для секций */
+section {
+    padding: 50px;
+}
+
+/* Стили для футера */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Медиа-запросы для адаптивного дизайна */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+nav {
+    background-color: #31708E;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header {
+    position: relative;
+    top: 0%;
+    height: 20%;
+    }
+    /*Header CSS*/
+    img#у {
+    position: relative;
+    top:50%;
+    height: 50%;
+    left: 0px;
+    }
+    img#ц {
+    position: relative;
+    top:60%;
+    height:30%;
+    vertical-align:right;
+    margin-right: 2%;
+    }
